@@ -1,7 +1,7 @@
 body {
   font: 400 15px "Times New Roman", Times, serif, Lato, sans-serif;
   background: #ffdb59;
-  color: purple;
+  color: rgb(170, 25, 25);
 }
 
 .navbar {
@@ -13,17 +13,17 @@ body {
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
-  font-family: Montserrat, sans-serif;
+  font-weight: 900;
 }
 
 .navbar li a,
 .navbar .navbar-brand {
-  color: purple !important;
+  color: rgb(170, 25, 25) !important;
 }
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-  color: purple !important;
+  color: rgb(170, 25, 25) !important;
   background-color: #fff !important;
 }
 
@@ -33,38 +33,38 @@ body {
 }
 
 h1 {
-  color: purple;
+  color: rgb(170, 25, 25);
   margin-top: 25px;
   margin-bottom: 5px;
 }
 
 h2 {
-  color: purple;
+  color: rgb(170, 25, 25);
   font-weight: 700;
   margin-top: 1px;
   margin-bottom: 30px;
 }
 
 h3 {
-  color: purple;
+  color: rgb(170, 25, 25);
   font-weight: 700;
 }
 
 h4 {
-  color: purple;
+  color: rgb(170, 25, 25);
   font-weight: 100;
   text-align: justify;
   text-justify: inter-word;
 }
 
 h5 {
-  color: purple;
+  color: rgb(170, 25, 25);
   font-weight: 500;
 }
 
 .jumbotron {
   background-color: #ffdb59;
-  color: purple;
+  color: rgb(170, 25, 25);
   padding: 33px 5px;
   font-family: Montserrat, sans-serif;
 }
@@ -79,7 +79,7 @@ h5 {
 }
 .bg-1 {
   background-color: #ffdb59; /* Green */
-  color: purple;
+  color: rgb(170, 25, 25);
 }
 
 #emblem img {
@@ -95,19 +95,21 @@ img {
 .bg-grey {
   background-color: #ffdb59;
 }
+
 .logo-small {
-  color: #f4511e;
+  color: rgb(170, 25, 25);
   font-size: 50px;
 }
+
 .logo {
-  color: #f4511e;
+  color: rgb(170, 25, 25);
   font-size: 200px;
 }
 
 .thumbnail {
   padding: 0 0 15px 0;
-  border: 1px solid purple;
-  background-color: purple;
+  border: 1px solid rgb(170, 25, 25);
+  background-color: rgb(170, 25, 25);
   color: #ffdb59;
   border-radius: 0;
 }
@@ -143,7 +145,7 @@ iframe {
 }
 
 .panel {
-  border: 1px solid purple;
+  border: 1px solid rgb(170, 25, 25);
   border-radius: 0 !important;
   transition: box-shadow 0.5s;
 }
@@ -153,7 +155,7 @@ iframe {
 }
 
 .panel-heading {
-  background-color: purple !important;
+  background-color: rgb(170, 25, 25) !important;
   padding: 25px;
   border-bottom: 1px solid transparent;
   border-top-left-radius: 0px;
@@ -231,7 +233,7 @@ iframe {
   width: 5px;
   padding-top: 50px;
   margin: 0 auto;
-  background: purple;
+  background: rgb(170, 25, 25);
   list-style: none;
 }
 
@@ -241,7 +243,7 @@ iframe {
   bottom: 0;
   width: 270px;
   padding: 1rem;
-  background: purple;
+  background: rgb(170, 25, 25);
   transition: all 0.5s ease-in-out;
   visibility: hidden;
   opacity: 0;
@@ -255,13 +257,13 @@ iframe {
 /* Right Side */
 #timeline ul li:nth-child(odd) div {
   left: 40px;
-  transform: translate(450px, 0);
+  transform: translate(125px, 0);
 }
 
 /* Left Side */
 #timeline ul li:nth-child(even) div {
   left: -305px;
-  transform: translate(-450px, 0);
+  transform: translate(-125px, 0);
 }
 
 /* Dots */
@@ -292,14 +294,14 @@ iframe {
 #timeline ul li:nth-child(odd) div:before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent purple transparent transparent;
+  border-color: transparent rgb(170, 25, 25) transparent transparent;
 }
 
 /* Left Side Arrows */
 #timeline ul li:nth-child(even) div:before {
   right: -15px;
   border-width: 8px 0px 8px 16px;
-  border-color: transparent transparent transparent purple;
+  border-color: transparent transparent transparent rgb(170, 25, 25);
 }
 
 /* Show Boxes */
@@ -311,7 +313,7 @@ iframe {
 
 #timeline ul li.show:after {
   background: white;
-  border: 3.5px solid purple;
+  border: 3.5px solid rgb(170, 25, 25);
 }
 
 @media (max-width: 900px) {
@@ -340,6 +342,6 @@ iframe {
   #timeline ul li:nth-child(even) div:before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent purple transparent transparent;
+    border-color: transparent rgb(170, 25, 25) transparent transparent;
   }
 }
