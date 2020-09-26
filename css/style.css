@@ -219,6 +219,15 @@ iframe {
   }
 }
 
+.year {
+  width: 120px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: rgb(170, 25, 25);
+}
+.year h3 {
+  color: #ffdb59;
+}
 /* Create Line */
 #timeline ul {
   padding: 5px;
