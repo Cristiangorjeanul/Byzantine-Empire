@@ -1,5 +1,5 @@
 body {
-  font: 400 15px "Times New Roman", Times, serif, Lato, sans-serif;
+  font-family: "Times New Roman", Times, Helvetica;
   background: #ffdb59;
   color: rgb(170, 25, 25);
 }
@@ -52,7 +52,7 @@ h3 {
 
 h4 {
   color: rgb(170, 25, 25);
-  font-weight: 100;
+  font-weight: 500;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -241,7 +241,7 @@ iframe {
 #timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 270px;
+  width: 255px;
   padding: 1rem;
   background: rgb(170, 25, 25);
   transition: all 0.5s ease-in-out;
@@ -257,13 +257,13 @@ iframe {
 /* Right Side */
 #timeline ul li:nth-child(odd) div {
   left: 40px;
-  transform: translate(125px, 0);
+  transform: translate(100px, 0);
 }
 
 /* Left Side */
 #timeline ul li:nth-child(even) div {
   left: -305px;
-  transform: translate(-125px, 0);
+  transform: translate(-100px, 0);
 }
 
 /* Dots */
