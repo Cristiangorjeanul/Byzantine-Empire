@@ -328,8 +328,8 @@ iframe {
 #timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 255px;
-  padding: 1rem;
+  width: 170px;
+  padding: 0.1rem;
   background: #aa1000;
   transition: all 0.5s ease-in-out;
   visibility: hidden;
@@ -349,7 +349,7 @@ iframe {
 
 /* Left Side */
 #timeline ul li:nth-child(even) div {
-  left: -305px;
+  left: -205px;
   transform: translate(-50px, 0);
 }
 
